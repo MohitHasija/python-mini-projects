@@ -112,7 +112,7 @@ class GetPrimeNumbers(object):
       pass
     
 """
-  We test the code with upper limit of the piece of code till 1000.
+  We test the code with upper limit of the piece of code till 1000000000.
   This upper limit of the prime numbers displayer can be changed afterwards as well.
 """
 prime_numbers_displayer = GetPrimeNumbers(upper_limit=1000000000)
