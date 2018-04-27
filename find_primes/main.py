@@ -29,7 +29,7 @@ class InputParser(object):
         "Press Q/q to Quit or hit any other key to continue.")
       else:
         try:
-          print(console_input)
+          
           self.number_input_from_console = int(console_input)
           return self.number_input_from_console
         except ValueError:
